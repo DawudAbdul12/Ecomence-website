@@ -1,0 +1,154 @@
+.prod {
+	margin-top:30px;
+}
+
+form {
+	margin-top:20px; 
+}
+
+.form-control {
+	border-radius: 0px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+label {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+form .btn1 {
+	border-radius: 0px;
+	background: #000;
+	color: #fff;
+	border:1px solid #2a2a2a;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+form .btn2 {
+	border-radius: 0px;
+	background: #fff;
+	color: #dfdfdf;
+	border:1px solid #f5f5f5;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.section-2 {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.section-2 h4 {
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.section-2 .small {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.section-2 .margin-but img {
+	margin-bottom: 20px;
+}
+
+.section-2 .margin-but p {
+	margin-bottom: 0px;
+	font-size: 16px;
+	margin-top: 0px;
+}
+
+.section-2 .margin-but {
+	margin-bottom: 30px;
+}
+
+.section-2 .btn {
+	/*background: transparent;
+	color: #000;
+	font-size: 10px;
+	font-weight: bold;
+	border: 1px solid #979596;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-height: 40px;*/
+	margin-top: 10px;
+	border-radius: 1px;
+}
+
+.marg-right {
+	margin-right: 10px;
+}
+
+.prod h4 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.prod hr {
+ 	border-top: 1px dotted #f4f4f4;
+ 	margin-top: 5px;
+ 	margin-bottom: 20px;
+}
+
+.prod ul {
+	font-size: 12px;
+	font-weight: bold;
+	color: #b5b4b0;
+	margin-right: 15px;
+	padding-left: 15px;
+}
+
+.prod ul hr {
+	margin-top: 5px;
+ 	margin-bottom: 5px;
+}
+
+.prod ul li {
+	margin-left: 20px;
+}
+
+.mid {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.marg {
+	margin-right: 15px;
+}
+
+.mid .spec {
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.mid .btn3 {
+	background: #dedede;
+	font-size: 12px;
+	font-weight: bold;
+	border:1px solid #e2e2e2;
+	padding: 5px 10px;
+}
+
+@media(max-width: 468px){
+	.form-control {
+		margin-bottom: 10px;
+	}
+}
+
+
+@media(min-width: 768px) {
+	.flex {
+		display: flex;
+	}
+
+	.right {
+		float: right;
+	}
+}
